@@ -1,0 +1,79 @@
+
+/*.html{*/
+/*    */
+/*}*/
+body{
+    background: purple;
+    margin: 0;
+    padding: 0;
+}
+.wholeCalculator {
+    /*background: white;*/
+    border: 1px solid red;
+    padding: 50px 20px 50px 20px;
+    /*border-color: black;*/
+    /*border-radius: 200px 400px 200px 400px;*/
+    /*height: 1000px;*/
+    width: 450px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.output{
+    width: 400px;
+    grid: none;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*border-radius: 20px 20px 20px 20px;*/
+    font-size: 50px;
+    color: black;
+    text-align: right;
+    background-color: white;
+    /*border: none;*/
+}
+
+.calculatorSigns{
+    width: 100px;
+    font-size: 30px;
+    background-color: yellow;
+}
+.number{
+    width: 100px;
+    font-size: 30px;
+    color: grey;
+}
+button{
+    color: black;
+    height: 100px;
+    border-radius: 10px 15px 10px 15px;
+    font-size: 5px;
+    text-shadow: grey;
+
+}
+.decimal{
+    width: 100px;
+    font-size: 30px;
+    background-color: yellow;
+}
+.allClear{
+    width: 100px;
+    font-size: 30px;
+    background-color: yellow;
+}
+.equalTo{
+    width: 100px;
+    font-size: 30px;
+    background-color: yellow;
+}
+
+button:hover{
+    color: grey;
+}
+.number0{
+    width: 200px;
+    font-size: 30px;
+    color: grey;
+    width: 10.2%;
+    /*display: grid;*/
+    grid-gap: 30px;
+}
